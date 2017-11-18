@@ -10,12 +10,33 @@ body {
     font: normal normal 12pt/1.5em arial, tahoma, sans-serif;
 }
 
+#header {
+    padding: 40px 20px 10px 5px;
+    margin: 30px 15px 10px 5px;
+    border-bottom: 10px dotted blue;
+}
+#header img {
+    border: 10px solid yellow;
+}
+
+.header {
+    padding: 20px;
+    border: 10px solid red;
+    border-bottom: 10px dashed green;
+    margin: 30px;
+}
+
+.header img {
+    display: block;
+    float: none;
+}
+
 h1 {
     font-size: 300%;
 }
 
 h2 {
-        font-size: 250%;
+    font-size: 250%;
 }
 
 p {
@@ -47,7 +68,8 @@ p.srodek {
 }
 
 img {
-    float: right;
+    float: left;
+    border: 10px dotted yellow;
 }
 
 
