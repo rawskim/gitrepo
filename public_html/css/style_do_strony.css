@@ -13,3 +13,10 @@ p.sensserif {
     font-weight: normal;
     line-height: 1.5em;
 }
+
+.header {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
