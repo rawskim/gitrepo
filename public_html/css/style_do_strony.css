@@ -1,22 +1,15 @@
-p.serif {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 10pt;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1.5em;
+#header {
+	margin: 20px;
 }
 
-p.sensserif {
-    font-family: "Arial", Helvetica, sans-serif;
+.sansserif{
+    font-family: arial;
 	font-size: 12pt;
     font-style: normal;
     font-weight: normal;
     line-height: 1.5em;
+    margin: 40px;
 }
 
-.header {
-    margin: auto;
-    width: 60%;
-    border: 3px solid #73AD21;
-    padding: 10px;
-}
+
+
