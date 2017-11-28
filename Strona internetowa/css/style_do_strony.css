@@ -64,12 +64,20 @@ p {
 	border-right: 3px solid black;
 }
 
-.menu:hover
-{
+.menu:hover {
 	background-color: grey;
 	cursor: pointer;
 }
 
 .header {
 	margin: 20px;
+}
+
+.tekst {	
+	text-align: justify;
+	margin: 20px;
+}
+
+.pochylony {
+    font-style: italic;
 }
