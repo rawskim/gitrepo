@@ -1,0 +1,46 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-22T09:55:53+01:00
+
+====== Baza danych ======
+Created poniedziałek 22 styczeń 2018
+
+=== Baza danych - uporządkowany zbóir informacji ===
+
+== Projektowanie bazy danych: ==
+* tabela
+* pola, typ danych 
+* rekord - zbiór pól w obrębie jednej tabeli
+
+**Baza danych powinna zajmować minimum pamięci (miejsca), powinna być wydajna i spójna.**
+
+== Relacyjna baza danych ==
+składa się z wielu tabel połączonych relacjami
+
+== Programy: ==
+* Microsoft Access (.accdb)
+* LibreOffice Base (.odb)
+* SQLiteStudio (.db ; .sqlite)
+
+== Język SQL: ==
+strukturalny język zapytań stosowany w bazach danych
+
+== Silniki/Systemy baz danych: ==
+* MySQL
+* MariaDB
+* PostgreSQL
+* Oracle
+* SQLite
+
+Typy danych:
+
+Liczbowe:
+integer - liczby całkowite
+float, real, decimal - liczby zmiennoprzecinkowe
+
+Tekstowe:
+text [20], varchar[20], string
+
+Data i czas:
+Date - data, np. w formacie IOS, np. 2015-01-16
+DateTime - data i czas
