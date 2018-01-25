@@ -29,16 +29,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
     <script type="text/javascript">
-      $(document).ready(function(){
-
-        $("#kod1").mouseover(function(){
-          $("input[name='kod1']").val());
-          $("#akapit1").text(function(){
-
-          });
-        });
-
+    $(document).ready(()=>{
+      $("input[name='kod1']").mouseover(()=>{
+        $("#akapit1").text($("input[name='kod1']").val());
       });
+      $("input[name='kod2']").mouseover(()=>{
+        $("#akapit2").text($("input[name='kod2']").val());
+      });
+      $("input[name='kod3']").mouseover(()=>{
+        $("#akapit3").text($("input[name='kod3']").val());
+      });
+
+    });
     </script>
   </body>
 </html>
