@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-26T11:56:15+01:00
+
+====== P5.js ======
+Created piątek 26 styczeń 2018
+
+**canvas** - program służący do obsługi grafiki
+
+( dodatki > rozszerzenia> collor zilla)
