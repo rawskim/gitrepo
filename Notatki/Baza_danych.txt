@@ -44,3 +44,9 @@ text [20], varchar[20], string
 Data i czas:
 Date - data, np. w formacie IOS, np. 2015-01-16
 DateTime - data i czas
+
+**Autoinkrementacja - **samoczynne podnoszenie wartosci
+
+**klucz główny (primary key) - **pole, którego wartość jest unikalna w obrębie tabeli, tzn., że klucz główny jednoznacznie identyfikuje rekord tabeli
+
+**klucz obcy** - pobiera wartości z klucza głównego, łączy tabele zależne z tabelą główną
