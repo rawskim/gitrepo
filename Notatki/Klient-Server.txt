@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-02T12:15:14+01:00
+
+====== Klient-Server ======
+Created piątek 02 luty 2018
+
+**Serwer** - "komputer" udostępniający zasoby
+Jakie zasoby można udostępniać?
+Udostępnia usługi (ang. services, lista: [[/etc/services]])
+
+1**.DNS** - Domain Name System, port 53, zamiana nazw hostów na adresy IP, polecenie: ping
+2.**HTTP**- Hyper Text Transfer Protocol, komunikacja w zakresie stron WWW, port 80
+3.**FTP**-File Transfer Protocol, porty 20,21
+4.**SSH** - Secure Shell, port 22
+
+**Klient**- "komputer" korzystający z uslug udostępnianych przez serwer, np. przeglądarka WWW albo klient chat
+
+**Protokół** - "język" porozumiewania się klienta z serwerem, protokoły definiowane są w dokumentach RFC 
+
+**Adres IP -** np. publiczny 221.34.2.10
+
+**Port** - liczba naturalna identyfikująca usługę na serwerze, well known ports 0- 1024, zob./etc/services
+
+=== LOKALNY SERWER HTTP ===
+python - m SimpleHTTPServer
+python3 -m http.server
+
+php-S localhost:8000
+
+
+URL =>URL
+http:// - protokół
+lo1.sandomierz.pl - (pełnodomenowa) nazwa serwera
+[[/szukaj]] - zasób na serwerze
+? - początek listy parametrów
+words=parnas - parametr w formacie nazwa = wartość
+& - znak służący rozdzielaniu parametrów
+search= - parametr bez wartości
+
+https:// = HTTP + SSL
