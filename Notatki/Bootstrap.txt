@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-26T10:25:51+01:00
+
+====== Bootstrap ======
+Created poniedziałek 26 luty 2018
+

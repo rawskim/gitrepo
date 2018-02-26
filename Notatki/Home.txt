@@ -14,3 +14,5 @@ $("#login")
 $('selektor' albo "selektor").akcja(function(){
 działania;
 });
+
+Ctr+ shift+m
