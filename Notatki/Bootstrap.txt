@@ -5,3 +5,22 @@ Creation-Date: 2018-02-26T10:25:51+01:00
 ====== Bootstrap ======
 Created poniedziałek 26 luty 2018
 
+5 kategorii:
+	1) extra small - skrót xs, rozdzielczość <576 px
+	2) smal - skrót sm, rozdzielczość >= 576px
+	3)medium - skrót md, rozdzielczość >=768px
+	4)large - skrót lg, rozdzielczość >= 992px
+	5)extra large- skrót xl, >= 1200px
+	
+m- dla klas dodających margines
+p- dla klas dodających wypełnienie
+
+t- margin-top or padding-top
+b
+l
+r
+x = l+r
+y = t+b
+
+
+
