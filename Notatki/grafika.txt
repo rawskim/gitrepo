@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-19T09:53:58+01:00
+
+====== grafika ======
+Created poniedziałek 19 marzec 2018
+
+barwy podstawowe RGB:
+Red
+Green
+Blue
+
+CMYK i RGB są odwrotnością
+
+PRZESTRZEŃ KOLORÓW
+
+grafika rastrowa
+	-photo shop
+	-gimp
+	-krita
+	
