@@ -9,19 +9,3 @@ body {
 .mark, mark {
   background-color:rgb(203, 158, 43)
 }
-
-.gallery {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.gallery-item {
-  margin: 20px;
-}
-
-.gallery-item .thumbnail {
-  border: 5px solid #fff;
-}
