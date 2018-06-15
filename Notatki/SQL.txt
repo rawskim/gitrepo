@@ -24,3 +24,29 @@ po otwarciu interpretera sqlite w terminalu
 
 btween zakres jest obustronnie zamkniety liczby 
 btween zakres jest jednostronnie (prawo) zamkniety litery
+
+
+SELECT AVG(downloads) FROM fakeapps;  - zapytanie ile razy bylo sciagniete  (srednia)
+
+ORDER BY () DESC; uporzadkuj malejaco
+
+ASC - rosnaco
+
+ LIMIT () - wyswietl (ile)
+
+SELECT ROUND(AVG(co),2) FROM fakeapps;  - zaokraglij do 2 miejsc po przecinku 
+
+SELECT COUNT(*) FROM - zlicz rekordy
+
+SELECT price, COUNT(*) FROM fakeapps WHERE downloads > 20000 GROUP BY price; - grupuje cenowo
+
+SELECT category, SUM(downloads) FROM fakeapps GROUP BY category;
+
+SELECT category, SUM(downloads) AS suma FROM fakeapps GROUP BY category ORDER BY suma DESC; - grupowanie wg najczesciej sciaganej kategorii
+
+SELECT category, price, ROUND(AVG(downloads), 2) AS srednia FROM fakeapps GROUP BY 1, 2;
+
+SELECT name, MAX(downloads) FROM fakeapps;
+
+SELECT name, MIN(downloads) FROM fakeapps;
+
