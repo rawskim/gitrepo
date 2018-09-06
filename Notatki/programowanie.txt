@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-09-06T08:08:07+02:00
+
+====== programowanie ======
+Created czwartek 06 września 2018
+
+kod binarny 01001010111
+mnemoniki 3 literowe skróty
+
+lata 70 - moment ważny dla programowania, powstały 2 języki ( powstał język C 1971 r)
+
+**kompilator** to program stworzony przez twórców języka, żeby sprawdzał kod w danym języku; na końcu tworzy kod pośredni
+
+kod zrodłowy jest kompilowany a potem linkowany 
+
+kod źródłowy jest interpretowany (python, java, java script) 
+
+**algorytm **skończony ciąg czynności, przekształcający zbiór danych wejściowych na zbiór danych wyjściowych 
+
+Blok graniczny (elipsa)
+Blok wejścia/wyjścia (równoległobok)
+Blok operacyjny (prostokąt)
+Blok decyzyjny (romb)
+Blok graniczny (elipsa)
