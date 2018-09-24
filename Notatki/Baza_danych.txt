@@ -50,3 +50,14 @@ DateTime - data i czas
 **klucz główny (primary key) - **pole, którego wartość jest unikalna w obrębie tabeli, tzn., że klucz główny jednoznacznie identyfikuje rekord tabeli
 
 **klucz obcy** - pobiera wartości z klucza głównego, łączy tabele zależne z tabelą główną
+
+
+kolumny nie powinny zawierac kolekcji roznych wartosci
+dane nie powinny sie powtarzac
+
+NORMALIZACJA to bezstratny proces organizowacia danych w tabelach majacych na celu zmniejszenie ilosci danych skalowanych w bazie oraz wyeliminowanie potencjalnych anomalii
+
+Kazde pole przechowuje jedna informacje dzieki czemu mozemy dokonywac efektywnych zapytan
+
+2 postac normalna - kazda tabela powinna przechowywac dane dotyczace tylko konkretnej klasy obiektów
+
