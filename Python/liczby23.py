@@ -25,19 +25,19 @@ def liczby2():
     Wykluczone liczby: 112, 224, 333 itd.
     """ 
 def liczby3():
-	
-	ile = 0
-	for s in range(1,10):
-		for d in range(0,10):
-			for j in range(0,10):
-				if (s != d and s != j) and (d != s and d != j) and (j != s and j != d):
-					print("{}{}{} ".format(s,d,j), end='')
-					ile = ile + 1         
-	return ile	
+
+    ile = 0
+    for s in range(1,10):
+        for d in range(0,10):
+            for j in range(0,10):
+                if s != d and s != j and d != j:
+                    print("{}{}{} ".format(s,d,j), end='')
+                    ile = ile + 1
+    return ile
 
 def main(args):
-    print("Liczb 2-cyfrowych: ", liczby2())
-    print("Liczb 3-cyfrowych: ", liczby3())
+    print("\n\nLiczb 2-cyfrowych: ", liczby2())
+    print("\n\nLiczb 3-cyfrowych: ", liczby3())
     return 0
 
 if __name__ == '__main__':
