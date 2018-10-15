@@ -50,3 +50,5 @@ SELECT name, MAX(downloads) FROM fakeapps;
 
 SELECT name, MIN(downloads) FROM fakeapps;
 
+LEDT JOIN
+IS (NOT) NULL
