@@ -6,6 +6,7 @@
 #include <iostream>
 #include <string.h>
 
+
 using namespace std;
 
 void zamiana_liter(char tab[])
@@ -18,7 +19,7 @@ void zamiana_liter(char tab[])
             kod += 32;
         else if (kod >= 97 && kod <= 122)
             kod -= 32;
-        cout << (char)kod;  
+        cout << (char)kod << " ";
         i++;
     }
 }
@@ -54,39 +55,40 @@ void licz_znaki(char tb[], int roz) {
     cout << "Reszta: " << reszta << endl; 
 }
 
-int zlicz(char tb[]) {
-        int i = 0;
-        while(tb[i] != '\0') i++;
-        return i;
-}
+int zlicz(char tb[]){
+    int i = 0;
+    while (tb[i] != '\0') i++;
+    return i;
+    }
 
-void ascii(char tb[], int roz) {
-    int kod = 0;
+
+void ascii(char tb[], int roz){
     for(int i = 0; i < roz; i++) {
-            kod = (int)tb[i];
-            if (kod > 96 && kod < 123)
-                cout << (char)(kod-32) << " ";
-            else
-                cout << tb[i] << " ";
+        kod = (int)tb[i];
+        cout << (int)tb[i] << " ";
     }
 }
 
-void odwroc(char tb[]){
-    for(int i = roz - 1; i >= 0; i --)
+
+void odwroc(char tb[], int roz) {
+    for(int i = roz-0; i >= 0; i--)
+        cout << tb[i] << " ";
+    
     }
 
 int main(int argc, char **argv)
 {
     const int rozmiar = 20;
-    char znaki[rozmiar];
+	char znaki[rozmiar];
     cin.getline(znaki, rozmiar);
     //licz_znaki(znaki, cin.gcount());
-    //zamiana_liter(znaki);
-    //~int ilosc = cin.gcount();
-    //~ilosc = zlicz(znaki);
-    int ilosc = 0;
+    zamiana_liter(znaki); 
+    int ilosc = 0; 
+    // ilosc = cin.gcount();
+   // ilosc = zlicz(znaki);
     ilosc = strlen(znaki);
+    //cout << ilosc;
     ascii(znaki, ilosc);
-    odwroc()
-    return 0;
+    odwroc(znaki);
+	return 0;
 }
