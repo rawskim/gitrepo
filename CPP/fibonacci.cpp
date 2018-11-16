@@ -1,5 +1,5 @@
 /*
- * fibonacci.cxx
+ * fibonacci.cpp
  */
 
 
