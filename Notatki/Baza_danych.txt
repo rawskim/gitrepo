@@ -61,3 +61,6 @@ Kazde pole przechowuje jedna informacje dzieki czemu mozemy dokonywac efektywnyc
 
 2 postac normalna - kazda tabela powinna przechowywac dane dotyczace tylko konkretnej klasy obiektów
 
+python3 -m venv pve3
+source [[~/pve3/bin/]] activate
+pip install peewee
