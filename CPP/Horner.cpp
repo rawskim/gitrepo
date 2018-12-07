@@ -25,19 +25,22 @@ float horner_it(float x, int stopien, float tbwsp[]){
     
     for(int i = 1; i < stopien + 1; i++)
         wynik = wynik * x + tbwsp[i];
-    
-    
-    
     return wynik;
      }
 
+float horner_re(float x, int stopien, float tbwsp[]){
+    // x(x(2x+ 3) + 5) + 4
+    if ( stopien == 0)
+        return tbwsp[0];
+    return horner_re(x, stopien-1, tbwsp) * x + tbwsp[stopien];
+}
 
 int main(int argc, char **argv)
 {
     int stopien = 0;
     float *tbwsp; // wspaźnik typu rzeczywistego rozpoznać można po * (wspaxnik zawiera adres pamięci)
     float x =0;
-	cout << "Stopień wielomianu: ";
+    cout << "Stopień wielomianu: ";
     cin >> stopien;
     
     tbwsp = new float [stopien + 1];
@@ -53,7 +56,7 @@ int main(int argc, char **argv)
     
     cout << "Wartość wielomianu o postaci: ";
     drukujw(stopien, tbwsp);
-    cout << "wynosi: " << horner_it(x, stopien, tbwsp);
-    
-	return 0;
+    cout << "wynosi: " << horner_it(x, stopien, tbwsp) << endl;
+    cout << "Wynosi: " << horner_re(x, stopien, tbwsp) << endl;
+    return 0;
 }
