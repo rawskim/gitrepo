@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 #
 #  uczniowie_orm.py
-
 import os
 from model_orm import *
 from baza import czy_jest, dane_z_pliku
@@ -16,7 +15,7 @@ def dodaj_dane(dane):
         wpisy = dane_z_pliku(plik + '.csv')
         with baza.atomic():
             model.insert_many(wpisy, fields=pola).execute()
-    
+
 
 def main(args):
     if os.path.exists(baza_plik):
