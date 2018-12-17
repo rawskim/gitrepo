@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"><
+<!--
+   lista.html
+   
+-->
+
+<head>
+<meta charset="utf-8"/>
+    <title>Aplikacja QUIZ</title>
+<meta name="generator" content="Geany 1.32">
+</head>
+
+<body>
+    <h1>Quiz - pytania</h1>
+
+    {% for p in pytania %}
+        <li>
+            {{ p.pytanie }}
+        </li>
+    {% endfor %}
+</body>
+
+</html>
