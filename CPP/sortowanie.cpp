@@ -45,19 +45,6 @@ void sort_bubble(int tab[], int n) {
     cout << "\nPowtórzeń: " << licznik << endl;
 }
 
-void sort_insert(int tab[], int n) {
-    cout << "\nSortowanie przez wstawianie\n";
-    int i, j, tmp;
-    for (i = 1; i < n; i++) { // pętla wybiera kolejne elementy zaczynając od drugiego
-        tmp = tab[i];
-        j = i - 1; // 0
-        while (j >= 0 && tab[j] > tmp) {
-            tab[j+1] = tab[j];
-            j--;
-        }
-        tab[j+1] = tmp;
-    }
-}
 
 //PASCAL, 1, :=
 // C++, 0, = 
@@ -71,6 +58,19 @@ void sort_selection(int tab[], int n){
             k = j;
         }
         zamien(tab[i], tab[k]);
+    }
+}
+
+void sort_insert(int tab[], int n) {
+    int i, k, j;
+    for (i = 1; i < n - 1; i++) {
+        el = tab[i];
+        k = i - 1;
+        while (k >= 0 && tab[k] > el) {
+            tab[k+1] = tab[k];
+            k--;
+        }
+        tab[j+1] = tmp;
     }
 }
 
