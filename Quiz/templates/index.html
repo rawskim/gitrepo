@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="pl">
-<!--
-   index.html
--->
-
-<head>
-<meta charset="utf-8" />
-    <title>Aplikacja QUIZ</title>
-</head>
-
-<body>
-    <h1>Witaj w quizie!</h1>
-    <p><a href="{{ url_for('lista') }}">Pytania »»»</a></p>
-</body>
-
-</html>
+{% extends "szablon.html" %}
+{% block tytul %}QUIZ{% endblock %}
+{% block h1 %}Witaj!{% endblock %}
+{% block tresc %}Rozwiąż buty{% endblock %}
