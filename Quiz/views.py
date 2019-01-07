@@ -8,7 +8,7 @@ from modele import Kategoria, Pytanie, Odpowiedz
 
 app = Flask(__name__)
 
-# widok domySlny
+# widok domyślny
 @app.route("/")
 def hello():
     return render_template('index.html')
