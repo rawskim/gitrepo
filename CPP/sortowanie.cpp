@@ -62,15 +62,15 @@ void sort_selection(int tab[], int n){
 }
 
 void sort_insert(int tab[], int n) {
-    int i, k, j;
-    for (i = 1; i < n - 1; i++) {
+    int i, k, el;
+    for (i = 1; i < n; i++) {
         el = tab[i];
         k = i - 1;
         while (k >= 0 && tab[k] > el) {
-            tab[k+1] = tab[k];
+            tab[k - 1] = tab[el];
             k--;
         }
-        tab[j+1] = tmp;
+        tab[k+1] = el;
     }
 }
 
@@ -85,7 +85,7 @@ int main(int argc, char **argv)
     //zamien(a, b);
     //cout << a << " " << b;
     cout << endl;
-    sort_selection(tab, roz);
+    sort_insert(tab, roz);
     drukuj(tab, roz);
     return 0;
 }
