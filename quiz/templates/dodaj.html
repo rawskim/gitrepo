@@ -1,0 +1,12 @@
+{% extends "szablon.html" %}
+{% block tytul %}QUIZ - dodaj pytania{% endblock %}
+{% block h1 %}QUIZ - dodaj pytania{% endblock %}
+{% block tresc %}
+    <form method="POST">
+        {{ form.csrf_token }}
+        {{ from.pytanie.label }}</br>
+        {{ from.pytanie.(class='form-control') }}</br>
+        
+        <input type="submit" class="btn btn-default" value="Prześlij">
+    </form>
+{% endblock %}

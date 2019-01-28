@@ -24,7 +24,7 @@ def dane_z_pliku(nazwa_pliku, separator=','):
         tresc = csv.reader(plik, delimiter=separator)
         for rekord in tresc:
             rekord = [x.strip() for x in rekord]  # oczyszczamy dane
-            dane.append(rekord)  # dodawanie rekordów do listy
+            dane.append(rekord)  # dodawanie rekordĂłw do listy
     return dane
 
 def dodaj_dane(dane):
