@@ -2,25 +2,23 @@
  * silnia.cpp
  */
 
-
 #include <iostream>
 using namespace std;
 
-int silnia_it(int a) {
+int silnia_it(int n){
+//n! = 1 * 2 * ... * n
     int wynik = 1;
-    for(int i=1; i<a; i++) {
-        wynik = a * (a-1);
-        }
+    for (int i =1; i <=n; i++)
+        wynik = wynik * i;
     return wynik;
 }
 
-
-// silnia_rek(5)
-// silnia_rek(4) * 5
-// silnia_rek(3) * 4 
-// silnia_rek(2) * 3
-// silnia_rek(1) * 2
-// silnia_rek(0) * 1
+// silnia_re(5)
+// silnia_re(4) * 5
+// silnia_re(3) * 4
+// silnia_re(2) * 3
+// silnia_re(1) * 2
+// silnia_re(0) * 1
 // 1
 // 1 * 1
 // 1 * 2
@@ -28,10 +26,10 @@ int silnia_it(int a) {
 // 6 * 4
 // 24 * 5
 // 120
-int silnia_rek(int a) {
-    if(a == 1)
-        return 1;
-    return a * silnia_rek(a-1);
+int silnia_re(int n){
+//n! = (n-1)! * n
+    if (n == 0) return 1;
+    return silnia_re(n-1) * n;
 }
 
 int main(int argc, char **argv)
@@ -40,7 +38,7 @@ int main(int argc, char **argv)
     cout << "Podaj liczbę: ";
     cin >> a;
     cout << "Silnia: " << silnia_it(a) << endl;
-    cout << "Silnia: " << silnia_rek(a) << endl;
-    return 0;
+    cout << "Silnia: " << silnia_re(a) << endl;
+	return 0;
 }
 
