@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-01-31T07:26:36+01:00
+
+====== System liczbowy ======
+Created czwartek 31 stycznia 2019
+
+MMXIX
+
+===== 2) Systemy pozycyjne =====
+
+==== System o podstawie 10 ====
+
+123(n) = a(n-1)*p^(n-1)+a(n-2)*p^(n-2)+...+a1*p^1+a*0*p^0;
+
+234(6) = 2*6^2+ 3*6^1+4*6^0
+
+==== System o podstawie 2 ====
+
+
+==== Konwersja liczby dziesiętnej ====
+dec2bin 129(10) -> 1000001(2) -> 128 + 1
+
+143/2 = 71 r 1
+71/2 = 35  r 1
+35/2 = 17 r 1
+17/2 = 8 r 1
+8/2 = 4 r 0
+4/2 = 2 r 0
+2/2 = 1 r 0
+1/2 = 0  r 1
+
+237/2 = 118 r 1
+118/2 = 59 r 1
+59/2 = 29 r 1
+29/2 = 14 r 1
+14/2 = 7 r 0
+7/2 = 3 r 1
+3/2 = 1 r 1
+1/2 = 0  r 1
