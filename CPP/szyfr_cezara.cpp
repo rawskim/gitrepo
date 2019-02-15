@@ -2,29 +2,50 @@
  * szyfr_cezara.cpp
  */
 
+
 #include <iostream>
 using namespace std;
 
 #define MAKS 100
 
-void szyfruj(int klucz, char tekst[], int ilosc) {
-    klucz = klucz % 20;
-    for(int i = 0; i < ilosc; i++){
-    cout << tekst[i];
-    tekst[i] = tekst[i+1];
+//~ void deszyfruj(char tb[], int klucz){
+    //~ klucz = klucz % 26;
+    //~ int i = 0;
+    //~ int kod = 0;
+    //~ while (tb[i] != '\0'){
+    
+    //~ }
+//~ }
+
+void szyfruj(char tb[], int klucz){
+    klucz = klucz % 26;
+    int i = 0;
+    int kod = 0;
+    while (tb[i] != '\0') {
+        kod = (int)tb[i] + klucz;
+        if (tb[i] == ' ') {
+            kod -= klucz;
+        } else if (kod > 122) {
+            kod -= 26;
+        }
+        cout << (char)kod;
+        tb[i] = (char)kod;
+        i++;
     }
+    cout << endl;
 }
+
 
 int main(int argc, char **argv)
 {
-    char tekst [MAKS];
+    char tekst[MAKS];
     int klucz = 0;
-    
-    cout << "Podaj tekst:\n"
+
+    cout << "Podaj tekst:\n";
     cin.getline(tekst, MAKS);
     cout << "Podaj klucz: ";
     cin >> klucz;
-    szyfruj(klucz, tekst, ilosc);
+    szyfruj(tekst, klucz);
+
     return 0;
 }
-
