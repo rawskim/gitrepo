@@ -35,9 +35,9 @@ def choinka2(h, c):
         print()
 
 
-def trojkat(a, h, c):
-    for i in range(h)
-        print()
+# ~ def trojkat(a, h, c):
+    # ~ for i in range(h)
+        # ~ print()
 
 
 def main(args):
