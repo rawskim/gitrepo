@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-02-28T07:24:57+01:00
+
+====== Pamięć ======
+Created czwartek 28 lutego 2019
+
+Komputer nie ruszy bez pamięci ROM
+
+RAM
+ROM
+Pamięć podreczna
+
+Pamięc masowa to pamięć trwała
+
+SSD to nie jest dysk mechaniczny (nie ma silniczka w srodku)
+
+Rola szyny danych:
+-taktowanie wyrażane w MHZ
+-podaje i zarządza adresami
