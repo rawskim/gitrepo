@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-03-15T13:58:52+01:00
+
+====== Sieć ======
+Created piątek 15 marca 2019
+
+Ethernet, skrętka + RJ45
+Przepustowość 100 Mb/s
+Prędkość
+
+Adres IPv4:
+192.168.x.x
+10.x.x.x
+172.16.x.x
+
+LAN - local area network
+komputer (deskopt, laptop(eth, wifi))
+smartfony, drularki
+
+SWITH (przełącznik) - interfejsy wewnetrzne
+ROUTER (SWITH + ROUTER)
+interfejs wewnetrzny + interfejs zewnętrzny  (DSL, VAN)
+
+Protokół sieciowy - zestaw zasad jak się komunikować

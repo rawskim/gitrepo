@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-03-07T07:25:26+01:00
+
+====== Linux ======
+Created czwartek 07 marca 2019
+
+montowanie polega na dołączeniu do struktury pliku
+
+linux jako jądro systemu
+
+DOS - system jednozadaniowy
+
+w kazdym systemie jest menedzer pamieci (wirtualnej)
+w kazdym systemie jest planista
+wielozadaniowosc,
