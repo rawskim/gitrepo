@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-11-12T08:20:53+01:00
+
+====== php ======
+Created wtorek 12 listopada 2019
+
+C:/UWAmp/www
+
+localhost/~kl3ag2/bazaphp

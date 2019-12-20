@@ -6,15 +6,16 @@ CREATE TABLE uczniowie (
 );
 
 CREATE TABLE oceny(
-	id_oceny INTEGER PRIMARY KEY AUTOINCREMENT,
+	id_oceny INTEGER PRIMARY KEY AUTO_INCREMENT,
 	data DATE,
 	id_ucz CHAR(8) NOT NULL,
 	id_przedm INTEGER,
 	ocena DECIMAL(3,2),
 	FOREIGN KEY (id_ucz) REFERENCES uczniowie(id_ucz)
+    ON DELETE CASCADE
 );
 
 CREATE TABLE przedmioty(
-	id_przedm INTEGER,
-	nazwa VARCHAR(30)
+	id_przedm INTEGER PRIMARY KEY AUTO_INCREMENT,
+	nazwa VARCHAR(30) NOT NULL
 );
